@@ -1,0 +1,139 @@
+
+
+@mixin SeccionesFuente {
+    text-align: center;
+    font-family: 'Chewy',cursive;
+    font-size: 50px;
+}
+
+
+.navbar{
+    background: rgba(0,0,0,0.4) !important;
+    #container__navbar{
+        font-size: 20px;
+        #logo__navbar{
+            margin-right: 10px;  
+            margin-bottom: 5px;
+        }
+    }
+} 
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #D9F9CD ;
+}
+
+#font__footer{
+    font-size: large;
+}
+
+.fuente{
+    font-family: 'Fredoka One', cursive;
+    font-size: 1em;
+}
+
+.sobre__nosotros , .planes , .reds, .contactanos__seccion{
+    @include SeccionesFuente();
+}
+
+#servicios{
+    margin-top: 100px;
+    font-size: 30px;
+    .parrafos__secciones{
+        margin-top: 100px;
+        margin-right: 40px;
+        @media screen and (max-width:1000px){
+            margin-right: 0;
+        }
+    }
+    .sobre{
+        text-align: justify;
+        @media screen and (max-width:1000px){
+            text-align: justify;
+        }
+    }
+}
+
+.parras__plan__cober{
+    font-size: 30px;
+}
+
+#hero {
+    background-image: url(pres.jpg);
+    background-size: cover;
+    padding-top: 250px;
+    min-height: 100vh;
+    color: white;
+    text-align: center;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 60px;
+    .a__index{
+        text-decoration: none;
+        color: white;
+        &:hover{
+            color: white;
+        }
+    }
+    .boton--index{
+        font-size: 25px;
+    }
+    @media screen and (max-width:1000px){
+        padding-top: 150px;
+        font-size: 40px;
+        min-height: 850px;
+    }
+    
+}
+
+#covertura{
+    margin-top: 10%;
+    .img--cobertura2{
+        width: 700px;
+    }
+}
+#contacto{
+    font-size: 20px;
+    margin-top: 10%;
+    background-color: #D9F9CD !important;
+    .map-container{
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;   
+        & iframe{
+            left:20px;
+            top:0;
+            height:100%;
+            width:100%;
+            position:absolute;
+        }
+    }
+    .contactanos__seccion{
+        margin-bottom: 5%;
+    }
+}
+
+.btn-lg{
+    font-size: 25px;
+}
+#PLANES{
+    margin-top: 6%;  
+    
+}
+#covertura{
+    margin-top: 8%;
+    margin-bottom: 0.5%;
+}
+.zoom__img{
+    transition: 0.5s;
+    &:hover{
+        transform: scale(1.15);
+    }
+}
+.zoom__imgchico{
+    transition: 0.5s;
+    &:hover{
+        transform: scale(1.05);
+    }
+}
+

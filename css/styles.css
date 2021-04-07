@@ -1,0 +1,161 @@
+.navbar {
+  background: rgba(0, 0, 0, 0.4) !important;
+}
+
+.navbar #container__navbar {
+  font-size: 20px;
+}
+
+.navbar #container__navbar #logo__navbar {
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #D9F9CD;
+}
+
+#font__footer {
+  font-size: large;
+}
+
+.fuente {
+  font-family: 'Fredoka One', cursive;
+  font-size: 1em;
+}
+
+.sobre__nosotros, .planes, .reds, .contactanos__seccion {
+  text-align: center;
+  font-family: 'Chewy',cursive;
+  font-size: 50px;
+}
+
+#servicios {
+  margin-top: 100px;
+  font-size: 30px;
+}
+
+#servicios .parrafos__secciones {
+  margin-top: 100px;
+  margin-right: 40px;
+}
+
+@media screen and (max-width: 1000px) {
+  #servicios .parrafos__secciones {
+    margin-right: 0;
+  }
+}
+
+#servicios .sobre {
+  text-align: justify;
+}
+
+@media screen and (max-width: 1000px) {
+  #servicios .sobre {
+    text-align: justify;
+  }
+}
+
+.parras__plan__cober {
+  font-size: 30px;
+}
+
+#hero {
+  background-image: url(pres.jpg);
+  background-size: cover;
+  padding-top: 250px;
+  min-height: 100vh;
+  color: white;
+  text-align: center;
+  font-family: 'Yusei Magic', sans-serif;
+  font-size: 60px;
+}
+
+#hero .a__index {
+  text-decoration: none;
+  color: white;
+}
+
+#hero .a__index:hover {
+  color: white;
+}
+
+#hero .boton--index {
+  font-size: 25px;
+}
+
+@media screen and (max-width: 1000px) {
+  #hero {
+    padding-top: 150px;
+    font-size: 40px;
+    min-height: 850px;
+  }
+}
+
+#covertura {
+  margin-top: 10%;
+}
+
+#covertura .img--cobertura2 {
+  width: 700px;
+}
+
+#contacto {
+  font-size: 20px;
+  margin-top: 10%;
+  background-color: #D9F9CD !important;
+}
+
+#contacto .map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+#contacto .map-container iframe {
+  left: 20px;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+#contacto .contactanos__seccion {
+  margin-bottom: 5%;
+}
+
+.btn-lg {
+  font-size: 25px;
+}
+
+#PLANES {
+  margin-top: 6%;
+}
+
+#covertura {
+  margin-top: 8%;
+  margin-bottom: 0.5%;
+}
+
+.zoom__img {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.zoom__img:hover {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+.zoom__imgchico {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.zoom__imgchico:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+/*# sourceMappingURL=styles.css.map */
