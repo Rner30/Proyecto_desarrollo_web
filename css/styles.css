@@ -15,10 +15,6 @@
   width: 2.5rem;
 }
 
-.animte_animated.animate__tada {
-  --animate-duration: 10s;
-}
-
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #D9F9CD;
@@ -66,7 +62,11 @@ body {
 }
 
 .parras__plan__cober {
-  font-size: 30px;
+  font-size: 1.8em;
+}
+
+.img__planes {
+  width: 95%;
 }
 
 #hero {
