@@ -15,6 +15,10 @@
   width: 2.5rem;
 }
 
+.animte_animated.animate__tada {
+  --animate-duration: 10s;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #D9F9CD;
