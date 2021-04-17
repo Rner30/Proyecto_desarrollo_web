@@ -12,7 +12,7 @@
 }
 
 .planes__iconos {
-  width: 2.5rem;
+  width: 40px;
 }
 
 body {
@@ -73,7 +73,7 @@ body {
   background-image: url(pres.jpg);
   background-size: cover;
   padding-top: 250px;
-  min-height: 100vh;
+  height: 100vh;
   color: white;
   text-align: center;
   font-family: 'Yusei Magic', sans-serif;
