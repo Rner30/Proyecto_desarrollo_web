@@ -109,6 +109,12 @@ body {
   width: 700px;
 }
 
+@media (max-width: 990px) {
+  #covertura {
+    padding-top: 20%;
+  }
+}
+
 #contacto {
   font-size: 20px;
   margin-top: 10%;
@@ -134,12 +140,30 @@ body {
   margin-bottom: 5%;
 }
 
+@media (min-width: 990px) {
+  #contacto {
+    margin-top: 5%;
+  }
+}
+
+@media (max-width: 990px) {
+  #contacto {
+    padding-top: 20%;
+  }
+}
+
 .btn-lg {
   font-size: 25px;
 }
 
 #PLANES {
   margin-top: 6%;
+}
+
+@media (max-width: 990px) {
+  #PLANES {
+    padding-top: 20%;
+  }
 }
 
 #covertura {

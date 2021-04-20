@@ -95,6 +95,9 @@ body{
     .img--cobertura2{
         width: 700px;
     }
+    @media (max-width: 990px) {
+        padding-top: 20%;
+    }
 }
 #contacto{
     font-size: 20px;
@@ -116,13 +119,25 @@ body{
     .contactanos__seccion{
         margin-bottom: 5%;
     }
+    @media (min-width: 990px) {
+        margin-top: 5%;
+    }
+    @media (max-width: 990px) {
+        padding-top: 20%;
+    }
+
 }
+
+
 
 .btn-lg{
     font-size: 25px;
 }
 #PLANES{
     margin-top: 6%;  
+    @media (max-width: 990px) {
+        padding-top: 20%;
+    }
 }
 #covertura{
     margin-top: 8%;
