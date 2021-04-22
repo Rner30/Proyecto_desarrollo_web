@@ -105,6 +105,11 @@ body {
   margin-top: 10%;
 }
 
+#covertura img {
+  display: block;
+  margin: auto;
+}
+
 #covertura .img--cobertura2 {
   width: 700px;
 }
